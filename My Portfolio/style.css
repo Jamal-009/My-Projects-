@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: poppins,sans-serif;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ header{
 
 .logo .logo-text{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
 }
 
@@ -134,3 +134,47 @@ nav .navlinks li a{
     color: #007ced;
     font-size: 16px;
 }
+
+.hero-text h1{
+    color: #007ced;
+    font-size: 3rem;
+}
+
+.hero-text p{
+    color: #e5e5e5;
+}
+
+.btn-group{
+    margin: 45px 0;
+}
+
+.btn-group .btn{
+    border-color: #d5d5d5;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 25px;
+    margin: 5px 0;
+    margin-right: 7px;
+    border-radius: 30px;
+    border: 2px solid #e5e5e5;
+    box-shadow: 0 10px 10px -8px rgba(0 0 0 / 78%);
+}
+
+.btn.active{
+    border-color: #007ced;
+}
+
+.hero-text .social i{
+    color: #e5e5e5;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.hero-text .social i:hover{
+    color: #007ced;
+}
+
+
+
+/* Responsive Design & Displaying Navbar For Small Screen */

@@ -8,6 +8,10 @@
 
     <!----- Fonts Awesome CDN ----->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="hero-header">
@@ -38,7 +42,7 @@
                     <img src="avatar.jpg" alt="profile pic">
                 </div>
                 <div class="hero-text">
-                    <h5>Hi I'm <span class="">Frontend Developer</span></h5>
+                    <h5>Hi I'm <span class="typedText"></span></h5>
                     <h1>Jamal Khan</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid expedita voluptas quis, fugit consectetur molestias rem officia exercitationem, alias quibusdam quod tenetur quia adipisci?</p>
 
@@ -58,5 +62,19 @@
 
         </div>
     </div>
+
+
+    <!-- TypedJS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+     <script>
+        var typingEffect = new Typed(".typedText",{
+        strings : ["Frontend Developer", "Web Developer",],
+        loop : true,
+        typeSpeed : 70,
+        backSpeed : 55,
+        // backDelay : 2000
+    })
+     </script>
 </body>
 </html>
